@@ -4,7 +4,7 @@ venv/
 __pycache__/
 *.py[cod]
 .venv/
-interview-ui/
+
 # === interview-ui (React/Node) ===
 interview-ui/node_modules/
 interview-ui/.pnp
