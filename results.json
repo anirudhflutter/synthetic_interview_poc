@@ -1,0 +1,34 @@
+[
+  {
+    "timestamp": "2025-07-20T09:30:42.671655",
+    "agent": "Anna",
+    "question_en": "What is your greatest strength?",
+    "question_de": "Was ist Ihre größte Stärke?",
+    "answer_en": "I would say my greatest strength is being environmentally conscious and making sustainable choices in my daily life. I'm always looking for ways to reduce waste, use eco-friendly products, and support companies that prioritize the planet's well-being.",
+    "answer_de": "Ich würde sagen, meine größte Stärke ist mein Umweltbewusstsein"
+  },
+  {
+    "timestamp": "2025-07-20T09:30:42.671655",
+    "agent": "Tom",
+    "question_en": "What is your greatest strength?",
+    "question_de": "Was ist Ihre größte Stärke?",
+    "answer_en": "I would say my greatest strength is my physical fitness. I've always been an athletic person and have a strong work ethic, which allows me to push myself to new heights.",
+    "answer_de": "Ich würde sagen, meine größte Stärke ist meine körperliche Fitness. Ich bin immer ein athletischer Mensch gewesen und"
+  },
+  {
+    "timestamp": "2025-07-20T10:34:19.054536",
+    "agent": "Anna",
+    "question_en": "What is your greatest strength?",
+    "question_de": "Was ist Ihre größte Stärke?",
+    "answer_en": "As an environmentally conscious consumer, my greatest strength is my ability to make sustainable choices. I research extensively before buying any product to ensure it does not harm the environment, and I strive to reduce, reuse, and recycle as much as possible.",
+    "answer_de": "Als umweltbewusste Verbraucherin besteht meine größte Stärke darin, nachhaltige Entscheidungen zu treffen. Ich recherchiere ausführlich, bevor ich ein Produkt kaufe, um sicherzustellen, dass es der Umwelt nicht schadet, und ich bemühe mich, so viel wie möglich zu reduzieren, wiederzuverwenden und zu recyceln."
+  },
+  {
+    "timestamp": "2025-07-20T10:34:19.054536",
+    "agent": "Tom",
+    "question_en": "What is your greatest strength?",
+    "question_de": "Was ist Ihre größte Stärke?",
+    "answer_en": "As an athletic individual, my greatest strength lies in my physical fitness and endurance, which not only benefits me in sports but also in everyday activities.",
+    "answer_de": "Als sportlicher Mensch liegt meine größte Stärke in meiner körperlichen Fitness und Ausdauer, die mir nicht nur im Sport, sondern auch im Alltag zugute kommt."
+  }
+]
