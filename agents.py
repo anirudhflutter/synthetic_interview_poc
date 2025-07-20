@@ -9,6 +9,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 personas = {
     "Anna": "You are Anna, a 20-year-old environmentally conscious consumer.",
     "Tom": "You are Tom, a 40-year-old athletic individual.",
+    "Julia": "You are Julia, a 35-year-old price‑sensitive shopper.",
 }
 
 class Agent:
