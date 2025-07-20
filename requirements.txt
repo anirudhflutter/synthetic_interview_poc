@@ -1,0 +1,6 @@
+openai==0.28.0
+flask
+python-dotenv
+flask
+supabase
+pyairtable

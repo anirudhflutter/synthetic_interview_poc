@@ -1,0 +1,28 @@
+venv/
+.env
+# === Python ===
+__pycache__/
+*.py[cod]
+.venv/
+interview-ui/
+# === interview-ui (React/Node) ===
+interview-ui/node_modules/
+interview-ui/.pnp
+interview-ui/.pnp.js
+
+# testing
+interview-ui/coverage/
+
+# production
+interview-ui/build/
+
+# misc
+interview-ui/.DS_Store
+interview-ui/.env.local
+interview-ui/.env.development.local
+interview-ui/.env.test.local
+interview-ui/.env.production.local
+
+interview-ui/npm-debug.log*
+interview-ui/yarn-debug.log*
+interview-ui/yarn-error.log*
