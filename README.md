@@ -66,7 +66,7 @@ AIRTABLE_TABLE_NAME=
 ### 1. CLI Interview Runner
 
 ```bash
-python interview.py --questions questions.json
+python3 interview.py --questions questions.json
 ```
 
 Führt ein Interview mit den Fragen aus `questions.json` durch und speichert die Antworten in `results.json`.
