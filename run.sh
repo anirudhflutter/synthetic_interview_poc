@@ -20,6 +20,11 @@ if [ ! -f .env ]; then
   exit 1
 fi
 
+if lsof -i tcp:5000 &>/dev/null; then
+  echo "Port 5000 in use, killing the process…"
+  lsof -ti tcp:5000 | xargs kill -9 || true
+fi
+
 # 4) Start Flask API in background
 echo "Starting Flask API on :5000…"
 FLASK_APP=api.py flask run --port 5000 &
@@ -31,7 +36,7 @@ sleep 2
 echo "Testing /run-interview endpoint…"
 curl -s -X POST http://127.0.0.1:5000/run-interview \
   -H 'Content-Type: application/json' \
-  -d '{"questions":["What is your greatest strength?","Describe a time you overcame a challenge."]}' \
+  -d '{"questions":["What matters to you in a lifestyle brand?","How do you evaluate sustainability?"]}' \
   | jq .
 
 # 7) Tail the logs so the demo stays alive

@@ -23,6 +23,9 @@ class Agent:
             messages.extend(history)
         messages.append({"role": "user", "content": question})
         try:
+            if not openai.api_key:
+                print("[ERROR] Please set OPENAI_API_KEY in your environment.")
+                return {"error": "Missing OPENAI_API_KEY"}
             resp = openai.ChatCompletion.create(
                 model="gpt-4o-mini",
                 messages=messages,

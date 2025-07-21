@@ -4,7 +4,8 @@ import logging
 from datetime import datetime
 from agents import load_agents
 from interview import run_interview
-
+from config import validate_env
+validate_env()
 # configure logging so cron mails you its output
 logging.basicConfig(
     level=logging.INFO,
