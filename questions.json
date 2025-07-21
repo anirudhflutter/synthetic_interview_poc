@@ -1,11 +1,10 @@
 [
-    {
-      "id": "rec1",
-      "question": "What is your greatest strength?"
-    },
-    {
-      "id": "rec2",
-      "question": "Describe a time you overcame a challenge."
-    }
-  ]
-  
+  {
+    "id": "rec1",
+    "question": "What matters to you in a lifestyle brand?"
+  },
+  {
+    "id": "rec2",
+    "question": "How do you evaluate sustainability?"
+  }
+]
