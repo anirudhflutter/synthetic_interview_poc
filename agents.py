@@ -22,11 +22,16 @@ class Agent:
         if history:
             messages.extend(history)
         messages.append({"role": "user", "content": question})
-        resp = openai.ChatCompletion.create(
-            model="gpt-4o-mini",
-            messages=messages,
-            temperature=0.7,
-        )
+        try:
+            resp = openai.ChatCompletion.create(
+                model="gpt-4o-mini",
+                messages=messages,
+                temperature=0.7,
+            )
+        except openai.OpenAIError as e:
+            # log & rethrow or return a fallback
+            print(f"[ERROR] OpenAI API call failed: {e}")
+            return {"error": str(e)}
         return resp.choices[0].message.content
 
 def load_agents():
