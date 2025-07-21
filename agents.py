@@ -23,8 +23,9 @@ class Agent:
             messages.extend(history)
         messages.append({"role": "user", "content": question})
         resp = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            messages=messages
+            model="gpt-4o-mini",
+            messages=messages,
+            temperature=0.7,
         )
         return resp.choices[0].message.content
 
