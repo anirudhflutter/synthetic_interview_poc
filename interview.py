@@ -24,12 +24,17 @@ SYSTEM_INSTRUCTIONS = {
 def get_llm_provider(provider: Literal["openai", "ollama"]):
     """Returns the appropriate LLM call function based on provider"""
     def openai_chat(messages, **kwargs):
-        resp = openai.ChatCompletion.create(
-            model="gpt-4o-mini",
-            messages=messages,
-            temperature=0.7,
-            **kwargs
-        )
+        try:
+            resp = openai.ChatCompletion.create(
+                model="gpt-4o-mini",
+                messages=messages,
+                temperature=0.7,
+                **kwargs
+            )
+        except openai.OpenAIError as e:
+            # log & rethrow or return a fallback
+            print(f"[ERROR] OpenAI API call failed: {e}")
+            return {"error": str(e)}
         return resp.choices[0].message.content
     
     def ollama_chat(messages, **kwargs):

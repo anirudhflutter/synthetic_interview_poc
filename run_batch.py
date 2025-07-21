@@ -6,8 +6,10 @@ from agents import load_agents
 from interview import run_interview
 
 # configure logging so cron mails you its output
-logging.basicConfig(level=logging.INFO, 
-                    format="%(asctime)s %(levelname)s %(message)s")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s"
+)
 
 BATCH_FILE   = "interview_batch.json"
 RESULTS_FILE = "results.json"
@@ -19,8 +21,12 @@ def main():
     questions = batch.get("questions", batch)
 
     # 2) run interview
-    agents = load_agents()
-    new_results = run_interview(agents, questions)
+    try:
+        agents = load_agents()
+        new_results = run_interview(agents, questions)
+    except Exception as e:
+        logging.exception("Interview run failed")
+        new_results = []
 
     # 3) append to results.json
     try:
