@@ -5,11 +5,10 @@ import json
 
 import os
 from supabase import create_client, Client
-from dotenv import load_dotenv
 from pyairtable.exceptions import InvalidParameterError
 from pyairtable import Table
-load_dotenv()  # already present for OPENAI
-
+from config import validate_env
+validate_env()
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)

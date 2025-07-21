@@ -7,6 +7,8 @@ import ollama
 from typing import Literal
 import re
 
+from config import validate_env
+validate_env()
 # Shared system instructions for all agents
 SYSTEM_INSTRUCTIONS = {
     "role": "system",
@@ -25,6 +27,9 @@ def get_llm_provider(provider: Literal["openai", "ollama"]):
     """Returns the appropriate LLM call function based on provider"""
     def openai_chat(messages, **kwargs):
         try:
+            if not openai.api_key:
+                print("[ERROR] Please set OPENAI_API_KEY in your environment.")
+                return {"error": "Missing OPENAI_API_KEY"}
             resp = openai.ChatCompletion.create(
                 model="gpt-4o-mini",
                 messages=messages,
@@ -119,8 +124,11 @@ def run_interview(agents, questions, provider: Literal["openai", "ollama"] = "op
 
             try:
                 raw = llm_chat(history)
+                # if the LLM wrapper returned an error dict, skip this agent
+                if isinstance(raw, dict) and raw.get("error"):
+                    print(f"[ERROR] {agent.name}: {raw['error']}")
+                    continue
                 payload = validate_response(raw)
-
                 # Validate required fields
                 required_keys = ['question_en', 'question_de', 'answer_en', 'answer_de']
                 if not all(key in payload for key in required_keys):
@@ -136,7 +144,7 @@ def run_interview(agents, questions, provider: Literal["openai", "ollama"] = "op
 
             except Exception as e:
                 print(f"Error processing {agent.name}'s response: {str(e)}")
-                print(f"Raw response: {raw[:200]}...")
+                print(f"Raw response: {raw}...")
                 continue
 
     return results

@@ -1,34 +1,98 @@
 [
   {
-    "timestamp": "2025-07-20T09:30:42.671655",
+    "timestamp": "2025-07-21T12:20:47.750624",
     "agent": "Anna",
-    "question_en": "What is your greatest strength?",
-    "question_de": "Was ist Ihre größte Stärke?",
-    "answer_en": "I would say my greatest strength is being environmentally conscious and making sustainable choices in my daily life. I'm always looking for ways to reduce waste, use eco-friendly products, and support companies that prioritize the planet's well-being.",
-    "answer_de": "Ich würde sagen, meine größte Stärke ist mein Umweltbewusstsein"
+    "question_en": "What matters to you in a lifestyle brand?",
+    "question_de": "Was ist dir bei einer Lifestyle-Marke wichtig?",
+    "answer_en": "For me, a lifestyle brand should prioritize sustainability and ethical practices. It's important that the products are eco-friendly and the company is transparent about its supply chain. I also appreciate brands that promote a positive message and community engagement.",
+    "answer_de": "Für mich sollte eine Lifestyle-Marke Nachhaltigkeit und ethische Praktiken priorisieren. Es ist wichtig, dass die Produkte umweltfreundlich sind und das Unternehmen transparent über seine Lieferkette informiert. Ich schätze auch Marken, die eine positive Botschaft und Gemeinschaftsengagement fördern."
   },
   {
-    "timestamp": "2025-07-20T09:30:42.671655",
+    "timestamp": "2025-07-21T12:20:47.750624",
     "agent": "Tom",
-    "question_en": "What is your greatest strength?",
-    "question_de": "Was ist Ihre größte Stärke?",
-    "answer_en": "I would say my greatest strength is my physical fitness. I've always been an athletic person and have a strong work ethic, which allows me to push myself to new heights.",
-    "answer_de": "Ich würde sagen, meine größte Stärke ist meine körperliche Fitness. Ich bin immer ein athletischer Mensch gewesen und"
+    "question_en": "What matters to you in a lifestyle brand?",
+    "question_de": "Was ist Ihnen bei einer Lifestyle-Marke wichtig?",
+    "answer_en": "For me, authenticity and sustainability are crucial in a lifestyle brand. I want to connect with a brand that reflects my values and promotes a healthy, active lifestyle. Additionally, quality and innovation in their products matter a lot.",
+    "answer_de": "Für mich sind Authentizität und Nachhaltigkeit entscheidend bei einer Lifestyle-Marke. Ich möchte mich mit einer Marke verbinden, die meine Werte widerspiegelt und einen gesunden, aktiven Lebensstil fördert. Außerdem sind Qualität und Innovation ihrer Produkte für mich sehr wichtig."
   },
   {
-    "timestamp": "2025-07-20T10:34:19.054536",
+    "timestamp": "2025-07-21T12:20:47.750624",
+    "agent": "Julia",
+    "question_en": "What matters to you in a lifestyle brand?",
+    "question_de": "Was ist Ihnen bei einer Lifestyle-Marke wichtig?",
+    "answer_en": "For me, a lifestyle brand should focus on quality and affordability. I appreciate when the brand aligns with my values, like sustainability, but it definitely needs to be budget-friendly. I want to feel good about my purchases without breaking the bank.",
+    "answer_de": "Für mich sollte eine Lifestyle-Marke auf Qualität und Erschwinglichkeit setzen. Ich schätze es, wenn die Marke mit meinen Werten übereinstimmt, wie Nachhaltigkeit, aber sie muss auf jeden Fall budgetfreundlich sein. Ich möchte mich gut fühlen über meine Einkäufe, ohne das Budget zu sprengen."
+  },
+  {
+    "timestamp": "2025-07-21T12:20:56.684923",
     "agent": "Anna",
-    "question_en": "What is your greatest strength?",
-    "question_de": "Was ist Ihre größte Stärke?",
-    "answer_en": "As an environmentally conscious consumer, my greatest strength is my ability to make sustainable choices. I research extensively before buying any product to ensure it does not harm the environment, and I strive to reduce, reuse, and recycle as much as possible.",
-    "answer_de": "Als umweltbewusste Verbraucherin besteht meine größte Stärke darin, nachhaltige Entscheidungen zu treffen. Ich recherchiere ausführlich, bevor ich ein Produkt kaufe, um sicherzustellen, dass es der Umwelt nicht schadet, und ich bemühe mich, so viel wie möglich zu reduzieren, wiederzuverwenden und zu recyceln."
+    "question_en": "How do you evaluate sustainability?",
+    "question_de": "Wie bewertest du Nachhaltigkeit?",
+    "answer_en": "Building on my previous thoughts, I evaluate sustainability by looking at the materials used in products, the energy consumption during production, and the overall lifecycle of the item. I also consider the brand's commitment to fair labor practices and how they give back to the community. Transparency in reporting their sustainability efforts is crucial.",
+    "answer_de": "Aufbauend auf meinen vorherigen Gedanken bewerte ich Nachhaltigkeit, indem ich die verwendeten Materialien, den Energieverbrauch während der Produktion und den gesamten Lebenszyklus des Produkts betrachte. Ich berücksichtige auch das Engagement der Marke für faire Arbeitspraktiken und wie sie der Gemeinschaft etwas zurückgeben. Transparenz bei der Berichterstattung über ihre Nachhaltigkeitsbemühungen ist entscheidend."
   },
   {
-    "timestamp": "2025-07-20T10:34:19.054536",
+    "timestamp": "2025-07-21T12:20:56.684923",
     "agent": "Tom",
-    "question_en": "What is your greatest strength?",
-    "question_de": "Was ist Ihre größte Stärke?",
-    "answer_en": "As an athletic individual, my greatest strength lies in my physical fitness and endurance, which not only benefits me in sports but also in everyday activities.",
-    "answer_de": "Als sportlicher Mensch liegt meine größte Stärke in meiner körperlichen Fitness und Ausdauer, die mir nicht nur im Sport, sondern auch im Alltag zugute kommt."
+    "question_en": "How do you evaluate sustainability?",
+    "question_de": "Wie bewerten Sie Nachhaltigkeit?",
+    "answer_en": "Building on my previous thoughts about sustainability in lifestyle brands, I evaluate sustainability by looking at the materials used, the production processes, and the overall impact on the environment. I also consider how transparent the brand is about its practices and whether they engage in fair labor practices.",
+    "answer_de": "Aufbauend auf meinen vorherigen Gedanken zur Nachhaltigkeit bei Lifestyle-Marken bewerte ich Nachhaltigkeit, indem ich die verwendeten Materialien, die Produktionsprozesse und die Auswirkungen auf die Umwelt betrachte. Ich achte auch darauf, wie transparent die Marke über ihre Praktiken ist und ob sie faire Arbeitspraktiken verfolgt."
+  },
+  {
+    "timestamp": "2025-07-21T12:20:56.684923",
+    "agent": "Julia",
+    "question_en": "How do you evaluate sustainability?",
+    "question_de": "Wie bewerten Sie Nachhaltigkeit?",
+    "answer_en": "Building on my previous thoughts about lifestyle brands, I evaluate sustainability by looking at the materials used, the production processes, and the overall transparency of the brand. I prefer brands that use eco-friendly materials and have fair labor practices. It's important that they not only talk about sustainability but also demonstrate it through their actions.",
+    "answer_de": "Aufbauend auf meinen vorherigen Gedanken zu Lifestyle-Marken bewerte ich Nachhaltigkeit, indem ich die verwendeten Materialien, die Produktionsprozesse und die allgemeine Transparenz der Marke betrachte. Ich bevorzuge Marken, die umweltfreundliche Materialien verwenden und faire Arbeitspraktiken haben. Es ist wichtig, dass sie nicht nur über Nachhaltigkeit sprechen, sondern diese auch durch ihre Taten demonstrieren."
+  },
+  {
+    "timestamp": "2025-07-21T12:24:00.507095",
+    "agent": "Anna",
+    "question_en": "What matters to you in a lifestyle brand?",
+    "question_de": "Was ist dir bei einer Lifestyle-Marke wichtig?",
+    "answer_en": "For me, a lifestyle brand should prioritize sustainability and ethical practices. It's essential that they use eco-friendly materials and ensure fair labor conditions. Additionally, a brand's transparency about its processes really resonates with me.",
+    "answer_de": "Für mich sollte eine Lifestyle-Marke Nachhaltigkeit und ethische Praktiken in den Vordergrund stellen. Es ist wichtig, dass sie umweltfreundliche Materialien verwenden und faire Arbeitsbedingungen gewährleisten. Außerdem spricht mich die Transparenz einer Marke über ihre Prozesse sehr an."
+  },
+  {
+    "timestamp": "2025-07-21T12:24:00.507095",
+    "agent": "Tom",
+    "question_en": "What matters to you in a lifestyle brand?",
+    "question_de": "Was ist Ihnen bei einer Lifestyle-Marke wichtig?",
+    "answer_en": "I value authenticity and quality in a lifestyle brand. It's important that the brand reflects a genuine ethos and offers products that stand the test of time. Additionally, I appreciate brands that promote a healthy and active lifestyle, aligning with my own values.",
+    "answer_de": "Ich schätze Authentizität und Qualität bei einer Lifestyle-Marke. Es ist wichtig, dass die Marke eine echte Ethos widerspiegelt und Produkte anbietet, die die Zeit überdauern. Außerdem schätze ich Marken, die einen gesunden und aktiven Lebensstil fördern, was mit meinen eigenen Werten übereinstimmt."
+  },
+  {
+    "timestamp": "2025-07-21T12:24:00.507095",
+    "agent": "Julia",
+    "question_en": "What matters to you in a lifestyle brand?",
+    "question_de": "Was ist dir bei einer Lifestyle-Marke wichtig?",
+    "answer_en": "For me, a lifestyle brand should offer quality products that are also affordable. I appreciate brands that align with my values, like sustainability and ethical sourcing. It's also important that they have a strong community feel, making me feel connected to something bigger.",
+    "answer_de": "Für mich sollte eine Lifestyle-Marke qualitativ hochwertige Produkte zu einem erschwinglichen Preis anbieten. Ich schätze Marken, die mit meinen Werten übereinstimmen, wie Nachhaltigkeit und ethische Beschaffung. Es ist auch wichtig, dass sie ein starkes Gemeinschaftsgefühl haben, sodass ich mich mit etwas Größerem verbunden fühle."
+  },
+  {
+    "timestamp": "2025-07-21T12:24:11.857836",
+    "agent": "Anna",
+    "question_en": "How do you evaluate sustainability?",
+    "question_de": "Wie bewertest du Nachhaltigkeit?",
+    "answer_en": "To evaluate sustainability, I look for several key factors. First, I check if the brand uses eco-friendly materials, as I mentioned previously. Then, I assess their production processes to ensure they are not harmful to the environment. Fair labor practices are crucial too, along with the brand's commitment to reducing waste and carbon footprint. Transparency about these aspects is vital for me.",
+    "answer_de": "Um Nachhaltigkeit zu bewerten, achte ich auf mehrere Schlüsselfaktoren. Zuerst prüfe ich, ob die Marke umweltfreundliche Materialien verwendet, wie ich zuvor erwähnt habe. Dann bewerte ich ihre Produktionsprozesse, um sicherzustellen, dass sie der Umwelt nicht schaden. Faire Arbeitspraktiken sind ebenfalls entscheidend, ebenso wie das Engagement der Marke zur Reduzierung von Abfall und CO2-Fußabdruck. Transparenz in diesen Aspekten ist für mich von großer Bedeutung."
+  },
+  {
+    "timestamp": "2025-07-21T12:24:11.857836",
+    "agent": "Tom",
+    "question_en": "How do you evaluate sustainability?",
+    "question_de": "Wie bewerten Sie Nachhaltigkeit?",
+    "answer_en": "In assessing sustainability, I look at several factors including the sourcing of materials, the production processes, and the brand's commitment to ethical practices. A brand that values authenticity and quality, as I mentioned previously, should also demonstrate environmental responsibility and transparency about its impact.",
+    "answer_de": "Bei der Bewertung von Nachhaltigkeit achte ich auf mehrere Faktoren, darunter die Beschaffung von Materialien, die Produktionsprozesse und das Engagement der Marke für ethische Praktiken. Eine Marke, die Authentizität und Qualität schätzt, wie ich zuvor erwähnt habe, sollte auch Umweltverantwortung und Transparenz über ihre Auswirkungen zeigen."
+  },
+  {
+    "timestamp": "2025-07-21T12:24:11.857836",
+    "agent": "Julia",
+    "question_en": "How do you evaluate sustainability?",
+    "question_de": "Wie bewertest du Nachhaltigkeit?",
+    "answer_en": "Building on my earlier thoughts about brands aligning with my values, I evaluate sustainability based on their sourcing practices, the materials used, and their overall environmental impact. I look for transparency in how they operate and whether they take steps to reduce waste and promote fair labor practices.",
+    "answer_de": "Aufbauend auf meinen früheren Gedanken zu Marken, die mit meinen Werten übereinstimmen, bewerte ich Nachhaltigkeit anhand ihrer Beschaffungspraktiken, der verwendeten Materialien und ihrer allgemeinen Umweltauswirkungen. Ich achte auf Transparenz in ihrem Handeln und darauf, ob sie Schritte unternehmen, um Abfall zu reduzieren und faire Arbeitspraktiken zu fördern."
   }
 ]
