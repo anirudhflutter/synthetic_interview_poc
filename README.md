@@ -149,3 +149,11 @@ Das Skript liest `interview_batch.json`, führt Interviews über `run_batch.py` 
 * **Authentication**: Working on security so only authorized clients can trigger our API calls. 
 * **Webhooks**: Will focus on replacing log-based simulation with webhook callbacks.
 
+## 📸 Screenshots
+
+![Project Structure View](assets/project_structure_screenshot.png)
+![n8n View](assets/n8n_execution_screenshot.png)
+![Supabase View](assets/supabase_screenshot.png)
+![Airtable View](assets/airtable_screenshot.png)
+![React Dashboard View](assets/react_dashboard_screenshot.png)
+![Output of run.sh file](assets/output_of_runsh_file_screenshot.png)
