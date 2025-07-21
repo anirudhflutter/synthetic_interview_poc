@@ -140,4 +140,12 @@ Das Skript liest `interview_batch.json`, führt Interviews über `run_batch.py` 
 
 ---
 
+## 🔮 Future Improvements & Known Limitations
+
+* **Deepen Problem Understanding**: Having a meeting with stakeholders regarding end goal of the project and focusing on user research to ensure questions map to business goals.
+* **Client‑side Caching**: Focusing on reducing redundant API calls via caching the results. Reduce redundant API calls by caching recent interview results.
+* **Error Handling**: To handle transient failures, implementing retry logics.
+* **Localization**: Focusing on how to extend language support to add any new language easily in future, specially once platform is scaling.
+* **Authentication**: Working on security so only authorized clients can trigger our API calls. 
+* **Webhooks**: Will focus on replacing log-based simulation with webhook callbacks.
 
